@@ -10,8 +10,7 @@ body {
     background-blend-mode: multiply;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-
+    background-size: cover;
 }
 
 main {
@@ -35,7 +34,7 @@ main {
 }
 
 h1 {
-    background-color: rgba(0, 0, 0, 0.185);
+/*    background-color: rgba(0, 0, 0, 0.185);*/
     border-radius: 5rem;
 }
 
@@ -120,6 +119,10 @@ h1, h5 {
         border-radius: 10px;
         margin: 10px;
         cursor: pointer;
+    }
+
+    main {
+        padding-top: 30rem;
     }
 
 
