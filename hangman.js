@@ -186,7 +186,7 @@ let movies = [
 /* Game Idea = Spoopy hangman! */
 
 const youWon = "You Won!";
-const youLost = "You Lost!";
+const youLost = "The Mind Flayer Won!";
 
 function Game()
 {
