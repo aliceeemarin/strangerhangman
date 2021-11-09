@@ -56,7 +56,6 @@ h1, h5 {
     color: white;
     background-image: url(img/hangman7.gif);
     background-position: center;
-
     text-align: center;
     background-color: black;
     background-blend-mode: multiply;
@@ -83,6 +82,9 @@ h1, h5 {
     color: rgb(172, 172, 172); /*keyboard - letras*/
     font-weight: bold;
     font-family: 'Shadows Into Light', cursive;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 2rem;
+    padding: .5rem;
 }
     
 .guess {
