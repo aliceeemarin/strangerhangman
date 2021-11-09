@@ -2,6 +2,7 @@
 
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url("https://use.typekit.net/qjn6oar.css");
 
 
 body {
@@ -142,7 +143,7 @@ h1, h5 {
         background-color: rgba(0, 0, 0, 0.384); /*guessbox*/
         font-family: 'Shadows Into Light', cursive;
         border-style: solid;
-        border-color:  #990c02 ;
+        border-color:  #990c02;
         color: white;
 }
     
@@ -150,16 +151,23 @@ h1, h5 {
 .button {
     display: inline-block;
     padding: 15px 25px;
-    font-size: 16pt;
+    font-size: 15pt;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: white; /*letras guesss word new game*/
+    color: #ffffff;  /*letras guesss word new game */
     background-color: #990c02;
     border: none;
     border-radius: 15px;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: itc-benguiat, 'Shadows Into Light', sans-serif;
+    font-weight: 1000;
+    font-style:normal;
+    text-transform: uppercase;
+/*  -webkit-text-fill-color: #3333336b;  Will override color (regardless of order) 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #990c02; 
+    letter-spacing: .1rem;*/
     opacity: 1; /*original opacity*/
     transition: 0.3s; /*time*/
 }
